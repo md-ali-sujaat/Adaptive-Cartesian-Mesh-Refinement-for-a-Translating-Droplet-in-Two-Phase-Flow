@@ -1,0 +1,18 @@
+{
+  "fine_grid_time": 5000,
+  "coarse_steps": 2500,
+  "body_acceleration_fine_units": 8e-06,
+  "centroid_wrapped_x": 89.56894693809298,
+  "centroid_unwrapped_x": 289.56894693809306,
+  "reference_unwrapped_x_idealized": 290.0,
+  "maximum_lattice_speed": 0.039902615330337135,
+  "relative_phase_volume_error": -2.7883001180982e-13,
+  "regrid_events": 437,
+  "changed_coarse_cells_cumulative": 4790,
+  "active_composite_cells": 15034,
+  "equivalent_uniform_fine_cells": 40000,
+  "phase_field_mean_abs_difference_vs_uniform": 5.278695064126925e-05,
+  "uniform_maximum_speed": 0.0399040705827635,
+  "momentum_budget_relative_residual": 0.003006345912073555,
+  "provenance": "User-provided Spyder console summary; final field files for this run were not provided."
+}
