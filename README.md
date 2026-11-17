@@ -4,7 +4,7 @@
 
 This demonstration combines a dynamically updated **two-level Cartesian hierarchy** with a small streamwise body acceleration to model an immiscible droplet moving across a periodic boundary. Unlike a liquid-region refinement strategy, the **fine grid follows only the diffuse interface**; the droplet core and surrounding gas remain on the coarse level wherever permitted by the refinement buffer.
 
-![Interface refinement with periodic droplet motion](figures/01_interface_refinement_overview.png)
+![Interface refinement with periodic droplet motion](01_interface_refinement_overview.png)
 
 ## Refinement strategy
 
@@ -14,7 +14,7 @@ Refinement is triggered by a phase-field window:
 
 The tagged interface is expanded by **four coarse cells** to give a numerical stencil buffer. Refinement is **periodic in x and y** and updated every **five coarse time steps**. The resulting hierarchy is **2:1 balanced**.
 
-![Actual coarse and fine cells](figures/02_actual_coarse_and_fine_cells.png)
+![Actual coarse and fine cells](02_actual_coarse_and_fine_cells.png)
 
 The figure shows real cell boundaries from the interface-only run, not a schematic or a relabeling of an earlier liquid-refined simulation. The blue phase-field contour locates the droplet, while the orange outline marks the fine-region boundary.
 
@@ -50,11 +50,11 @@ The figure shows real cell boundaries from the interface-only run, not a schemat
 
 The droplet's centroid crosses the periodic seam while the refinement region tracks the surface. **These are short-run validation results**, not the longer results previously obtained with liquid-interior refinement.
 
-![Phase-field comparison](figures/03_phase_field_comparison.png)
+![Phase-field comparison](03_phase_field_comparison.png)
 
-![Validation histories](figures/04_validation_histories.png)
+![Validation histories](04_validation_histories.png)
 
-![Cell-count comparison](figures/05_active_cell_counts.png)
+![Cell-count comparison](05_active_cell_counts.png)
 
 ## Scope and limitations
 
