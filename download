@@ -1,0 +1,4 @@
+*.png binary
+*.csv text
+*.md text
+*.json text

@@ -1,0 +1,20 @@
+{
+  "case": "interface-only AMR periodic-crossing short validation",
+  "selection": "0.2 < phi < 0.8, plus four-coarse-cell buffer",
+  "finest_time": 800,
+  "active_fine": 3736,
+  "active_coarse": 9066,
+  "active_composite_cells": 12802,
+  "uniform_equivalent_cells": 40000,
+  "phase_volume_rel_error": -3.64587280933818e-14,
+  "centroid_x_unwrapped": 200.53943449069766,
+  "centroid_x_wrapped": 0.5394344906976487,
+  "max_velocity": 0.00638498095641639,
+  "phi_L1_uniform": 0.00012675230380419694,
+  "momentum_relative_residual": 0.0015593300386218642,
+  "coarse_steps": 400,
+  "body_acceleration_fine": 8e-06,
+  "mask_mode": "interface",
+  "buffer_coarse": 4,
+  "source": "new interface-only rerun; old liquid mask long-run data excluded"
+}
